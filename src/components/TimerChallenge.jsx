@@ -5,9 +5,9 @@ export default function TimerChallenge({ title, targetTime }) {
 			<p className='challenge-time'>
 				{targetTime} second{targetTime > 1 ? 's' : ''}
 			</p>
-			<div>
-				<button>Start Challenge</button>
-			</div>
+
+			<button>Start Challenge</button>
+
 			<p className=''>Time is running.... / Timer inactive</p>
 		</section>
 	);
